@@ -42,7 +42,7 @@ A graphic from Google Research highlighting the 2016 accuracy levels of Google T
     - [Manythings](http://www.manythings.org/anki/) data consist of 2 columns and 88370 rows.
     - Shape of final data is (93985 X 2).
     
-#### Tasks Performed.
+#### Tasks Performed:
 - Loading the text file which contains two columns with English as source and Telugu as target.
 - Preprocessing the data until it is good fit for modeling.
 - Performed Tokenization to break the raw text into small chunks.
@@ -55,13 +55,13 @@ A graphic from Google Research highlighting the 2016 accuracy levels of Google T
         - Helsinki-NLP/opus-mt-en-mul.
 - Evaluated all the models and compared the output with the Google translate API and retrieved the BLEU score for each model.
 
-### Results
+### Results:
 ![output](https://github.com/pragathi1234/Machine_Translation/blob/main/images/Screen%20Shot%202022-05-06%20at%202.49.39%20AM.png)
 
 ### Conclusion:
 In this project, we propose different mechanisms for Neural Machine Translation: the global approach that looks at all source positions at all times, and a predefined model. When compared to the Helsinki-NLP/opus-mt-en-dra and facebook/mbart-large-50-one-to-many-mmt models, Helsinki-NLP/opus-mt-en-mul, predefined models outperformed this task. We put our models to the test in NMT translation tasks between English to Telugu.
 
-### Future Developments
+### Future Developments:
 - OpenAPI GPT is the most powerful Transformer to perform language translation. Because of the potential for misuse, the developers have refused to open source the entire model.
 - Starting from the very bottom of a deep neural network, BERT represents "bank" using both its previous and next contexts — "I accessed the... account" — making it deeply bidirectional. BERT will also be the most trending technique for Machine Translation.
 
